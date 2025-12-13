@@ -1,0 +1,70 @@
+<html>
+<head>
+<title>Form Page</title>   
+</head>
+<body>
+<center>
+    <h1><strong><u>Sign Up Form</u></strong></h1>
+<form action="signup.html" method="get">
+<div>
+<label for="username">Username :</label>
+<input type="text" name="username" id="username" placeholder="username" required>
+</div><br>
+<div>
+<label for="password"> Password :</label>
+<input type="password" name="password" id="password" placeholder="password"maxlength=“8” required>
+</div><br>
+<div>
+<label for="dob">Date of Birth :</label>
+<input type="date" name="dob" id="dob" min="01-01-1900">
+</div>
+<br>
+ <button type="submit">Sign up</button>
+<button type="reset">Reset</button>
+<hr>
+<div>
+<input type="checkbox" name="VIT" id="VIT">
+<label for="VIT">VIT Student</label>
+</div>
+<div>
+<input type="checkbox" name="VITF" id="VITF">
+<label for="VITF">VIT Faculty</label>
+</div>
+<h3><u>Gender:</u></h3>
+<div>
+<input type="radio" name="gender" id="male" value="male">
+<label for="male">MALE</label>
+</div>
+<div>
+<input type="radio" name="gender" id="female" value="female">
+<label for="female">FEMALE</label>
+</div>
+<div>
+<input type="radio" name="gender" id="trans" value="trans">
+<label for="trans">TRANS</label>
+</div><hr>
+<div>
+<label for="about">About : </label>
+<textarea name="about" id="about" cols="20"rows="1">
+</textarea>
+</div><br>
+<div>
+<label for="state">State of Origin : </label>
+<select>
+<option value="-">--Select State--</option>
+<option value="WB">West Bengal</option>
+<option value="JNK">Jammu and Kashmir</option>
+<option value="TN">Tamil Nadu</option>
+<option value="O">Other</option>
+</select>
+</div><hr>
+<div>
+<label for="file">Resume Upload : </label>
+<input type="file" name="file" id="file">
+</div>
+</form>
+</center>
+<hr>
+<p>Click here to return to previous page: <a href="menu.html">Go Back</a></p>
+</body>
+</html>
